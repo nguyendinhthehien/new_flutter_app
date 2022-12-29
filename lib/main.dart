@@ -5,9 +5,9 @@ void main() {
        MaterialApp(
         home: Center(
           child: Scaffold(
-            backgroundColor: Colors.red,
+            backgroundColor: Colors.teal,
             appBar: AppBar(
-              title: const Text('Ball'),
+              title: Center(child: const Text('Ballroom')),
               backgroundColor: Colors.yellow,
               ),
             body: BallPage(),
